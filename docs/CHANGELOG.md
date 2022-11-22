@@ -1,3 +1,11 @@
+## [2.0.1-alpha.1](https://github.com/artursudnik/releases-test-1/compare/v2.0.0...v2.0.1-alpha.1) (2022-11-22)
+
+
+### Style changes
+
+* adding lines between steps ([7ecca53](https://github.com/artursudnik/releases-test-1/commit/7ecca532e03300f57dcba795a6cc8057094c0ddd))
+* fixing step name ([6a805a1](https://github.com/artursudnik/releases-test-1/commit/6a805a149cb8b66ba9631e465b0b459a52caf428))
+
 ## [2.0.0](https://github.com/artursudnik/releases-test-1/compare/v1.1.0...v2.0.0) (2022-11-22)
 
 
