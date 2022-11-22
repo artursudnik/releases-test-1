@@ -1,3 +1,14 @@
+## [2.0.0-alpha.1](https://github.com/artursudnik/releases-test-1/compare/v1.1.0...v2.0.0-alpha.1) (2022-11-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* warning!
+
+### Features
+
+* this is a breaking change ([3caeba8](https://github.com/artursudnik/releases-test-1/commit/3caeba875e8a8cebaeb94ae371fc22c9a4137096))
+
 ## [1.1.0](https://github.com/artursudnik/releases-test-1/compare/v1.0.0...v1.1.0) (2022-11-22)
 
 
