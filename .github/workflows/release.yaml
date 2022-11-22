@@ -1,5 +1,8 @@
 name: Release
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: ['develop', 'main']
@@ -24,12 +27,13 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/setup-node@v3
         with:
           node-version: '16.10.0'
           registry-url: https://registry.npmjs.org/
 
-      - name: Install package
+      - name: Install packages
         run: npm ci
 
       - name: Publish ${{ github.ref }}
@@ -48,6 +52,7 @@ jobs:
           fetch-depth: 0
           ref: develop
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Merge master into develop branch
         run: |
           git merge origin/main
