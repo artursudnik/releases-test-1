@@ -29,6 +29,9 @@ jobs:
           node-version: '16.10.0'
           registry-url: https://registry.npmjs.org/
 
+      - name: Install package
+        run: npm ci
+
       - name: Publish ${{ github.ref }}
         uses: codfish/semantic-release-action@v1
         env:
