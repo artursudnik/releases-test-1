@@ -37,3 +37,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  sync_development_with_master:
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    needs: release
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          ref: develop
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Merge master into develop branch
+        run: |
+          git merge origin/main
+          git push origin develop
