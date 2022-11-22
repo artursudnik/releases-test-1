@@ -1,3 +1,10 @@
+## [2.1.0-alpha.2](https://github.com/artursudnik/releases-test-1/compare/v2.1.0-alpha.1...v2.1.0-alpha.2) (2022-11-22)
+
+
+### Features
+
+* feature 4 ([b41e290](https://github.com/artursudnik/releases-test-1/commit/b41e2904ca0da60702ae7b01419e934c331d846c))
+
 ## [2.1.0-alpha.1](https://github.com/artursudnik/releases-test-1/compare/v2.0.1-alpha.1...v2.1.0-alpha.1) (2022-11-22)
 
 
